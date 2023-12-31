@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django development settings
+*.log
+*.pot
+*.pyc
+
+# Ignore user-uploaded media files (if not using a CDN)
+/media/
+/static/
+
+# Ignore environment-specific files
+.env
+*.env
+
+# Ignore generated files
+*.bak
+*.swp
+*~
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore Python virtual environment
+venv/
+env/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore local configuration
+local_settings.py
+
+# Ignore migration files if managing migrations manually
+# Remove this if you use 'manage.py makemigrations'
+*/migrations/
+
+# Ignore pipenv or poetry generated files
+Pipfile.lock
+poetry.lock
